@@ -1,0 +1,25 @@
+<ion-view title="Login" id="page6" style="">
+  <ion-nav-buttons side="left" class="has-header">
+    <button class="button button-icon icon ion-checkmark"></button>
+  </ion-nav-buttons>
+  <ion-content padding="true" class="has-header">
+    <div>
+      <img src="img/k1wnrdcGTiCN4NGwI4HT_Checkin.png" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <form id="login-form1" class="list">
+      <ion-list id="login-list1">
+        <label class="item item-input" id="login-input1">
+          <span class="input-label">Username</span>
+          <input placeholder="" type="text">
+        </label>
+        <label class="item item-input" id="login-input2">
+          <span class="input-label">Password</span>
+          <input placeholder="" type="password">
+        </label>
+      </ion-list>
+      <div class="spacer" style="height: 40px;"></div>
+      <a ui-sref="tabsController.home_tab1" id="login-button1" class="button button-assertive  button-block">Log in</a>
+      <a href="#" onclick="window.open('/signup', '_system', 'location=yes'); return false;" id="login-button2" class="button button-positive  button-block button-clear">Or create an account</a>
+    </form>
+  </ion-content>
+</ion-view>
